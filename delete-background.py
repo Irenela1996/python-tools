@@ -35,6 +35,7 @@ def remove_backgrounds(folder_path):
         )
         with open(output_file, "wb") as new_image_stream:
             new_image_stream.write(output)
+        print("Imagen sin fondo: " + image_file)
 
 
 if __name__ == "__main__":
